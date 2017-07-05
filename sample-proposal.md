@@ -24,7 +24,7 @@ This project will include:
 
 This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn. Game controls will include moving the character Left and Right, a Play note button, and a Reset button and Pause button.
 
-![wireframes]()
+![wireframes]('/GuitarHeroWireframe.png')
 
 ### Architecture and Technologies
 
@@ -50,9 +50,11 @@ In addition to the entry file, there will be three scripts involved in this proj
 **Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Howler.js` installed. Write a basic entry file and the bare bones of all 3 scripts outlined above.  Learn the basics of `Howler.js`.  Goals for the day:
 
 - Get a green bundle with `Browserify`
-- Learn enough `Howler.js` and Canvas to render an object and play a sound via that object
+- Learn enough `Howler.js` deconstruct audio files
+- Learn Canvas to render an object
 
-**Day 2**: Dedicate this day to learning the `Howler.js` API.
+**Day 2**: Dedicate this day to learning the `Howler.js` API and Canvas
+- Learn how to create and manipulate Canvas elements
 - Use Howler.js to deconstruct an audio file into smaller parts.
 - Map those audio files to Canvas elements.
 
@@ -69,3 +71,4 @@ There are many directions this Guitar Hero could eventually go.  Some anticipate
 - [ ] Add multiple songs
 - [ ] Add different difficulty levels for game
 - [ ] Add multiplayer
+- [ ] Render different animations depending on score
