@@ -24,7 +24,7 @@ This project will include:
 
 This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn. Game controls will include moving the character Left and Right, a Play note button, and a Reset button and Pause button.
 
-![wireframes]('/GuitarHeroWireframe.png')
+![wireframes]('https://github.com/yaakovbeiss/Guitar-Hero/blob/master/GuiterHeroWireframe.png')
 
 ### Architecture and Technologies
 
