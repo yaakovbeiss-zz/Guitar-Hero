@@ -8,7 +8,7 @@
   height: 72px;
   width: 139px;
   position: absolute;
-  bottom: 0px
+  bottom: 0px;
 }
 .red-unpressed{
   background-image: url("../images/red-buttonUnpressed.png")
