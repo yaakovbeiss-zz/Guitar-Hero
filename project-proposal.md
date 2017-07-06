@@ -49,7 +49,7 @@ In addition to the entry file, there will be three scripts involved in this proj
 
 **Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Howler.js` installed. Write a basic entry file and the bare bones of all 3 scripts outlined above.  Learn the basics of `Howler.js`.  Goals for the day:
 
-- Get a green bundle with `Browserify`
+- Get a yellow bundle with `Browserify`
 - Learn enough `Howler.js` deconstruct audio files
 - Learn Canvas to render an object
 

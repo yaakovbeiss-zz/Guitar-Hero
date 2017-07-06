@@ -1,0 +1,22 @@
+.channel-containers{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+.channel{
+  height: 500px;
+  width: 129px;
+  display: flex;
+}
+.channel-container{
+  position: relative;
+}
+.red{
+  border: 5px solid red;
+}
+.yellow{
+  border: 5px solid yellow;
+}
+.blue{
+  border: 5px solid blue;
+}

@@ -6,7 +6,9 @@
 }
 .button{
   height: 72px;
-  width: 126px;
+  width: 139px;
+  position: absolute;
+  bottom: 0px
 }
 .red-unpressed{
   background-image: url("../images/red-buttonUnpressed.png")
@@ -14,8 +16,8 @@
 .blue-unpressed{
   background-image: url("../images/blue-buttonUnpressed.png")
 }
-.green-unpressed{
-  background-image: url("../images/green-buttonUnpressed.png")
+.yellow-unpressed{
+  background-image: url("../images/yellow-buttonUnpressed.png")
 }
 .red-pressed{
   background-image: url("../images/red-buttonPressed.png")
@@ -23,6 +25,6 @@
 .blue-pressed{
   background-image: url("../images/blue-buttonPressed.png")
 }
-.green-pressed{
-  background-image: url("../images/green-buttonPressed.png")
+.yellow-pressed{
+  background-image: url("../images/yellow-buttonPressed.png")
 }

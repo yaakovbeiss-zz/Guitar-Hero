@@ -5,19 +5,29 @@
     <script src="./node_modules/howler/dist/howler.js"></script>
     <script type="text/javascript" src="./lib/bundle.js">  </script>
     <link rel="stylesheet" href="assets/stylesheets/buttons.css">
+    <link rel="stylesheet" href="assets/stylesheets/channels.css">
     <title></title>
   </head>
   <body>
-    <canvas id="canvas"></canvas>
 
 
     <div class="container">
-      <div class="button-container">
-        <img class="red-unpressed button"  id="red-button"  alt="">
-        <img class="green-unpressed button" id="green-button"  alt="">
-        <img class="blue-unpressed button" id="blue-button"  alt="">
 
+      <div class="channel-containers">
+        <div class="channel-container">
+          <canvas class="channel red" id="red"></canvas>
+          <img class="red-unpressed button"  id="red-button"  alt="">
+        </div>
+        <div class="channel-container">
+          <canvas class="channel yellow" id="yellow"></canvas>
+          <img class="yellow-unpressed button" id="yellow-button"  alt="">
+        </div>
+        <div class="channel-container">
+          <canvas class="channel blue" id="blue"></canvas>
+          <img class="blue-unpressed button" id="blue-button"  alt="">
+        </div>
       </div>
+
     </div>
   </body>
 </html>
