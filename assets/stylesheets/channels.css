@@ -4,7 +4,7 @@
   height: 100vh;
 }
 .channel-containers{
-  height: 85%;
+  height: 700px;
   display: flex;
   justify-content: space-around;
   width: 50vw;
