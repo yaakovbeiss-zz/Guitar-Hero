@@ -19,6 +19,12 @@
 .yellow-unpressed{
   background-image: url("../images/yellow-buttonUnpressed.png")
 }
+.orange-unpressed{
+  background-image: url("../images/orange-buttonUnpressed.png")
+}
+.green-unpressed{
+  background-image: url("../images/green-buttonUnpressed.png")
+}
 .red-pressed{
   background-image: url("../images/red-buttonPressed.png")
 }
@@ -27,4 +33,10 @@
 }
 .yellow-pressed{
   background-image: url("../images/yellow-buttonPressed.png")
+}
+.orange-pressed{
+  background-image: url("../images/orange-buttonPressed.png")
+}
+.green-pressed{
+  background-image: url("../images/green-buttonPressed.png")
 }

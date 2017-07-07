@@ -6,14 +6,21 @@
     <script type="text/javascript" src="./lib/bundle.js">  </script>
     <link rel="stylesheet" href="assets/stylesheets/buttons.css">
     <link rel="stylesheet" href="assets/stylesheets/channels.css">
+    <link rel="stylesheet" href="assets/stylesheets/modal.css">
     <title></title>
   </head>
   <body>
-
+    <div class="modal-container">
+      <div class="" id="modal">Press Space to start</div>
+    </div>
 
     <div class="container">
 
       <div class="channel-containers">
+        <div class="channel-container">
+          <canvas class="channel green" id="green"></canvas>
+          <img class="green-unpressed button" id="green-button"  alt="">
+        </div>
         <div class="channel-container">
           <canvas class="channel red" id="red"></canvas>
           <img class="red-unpressed button"  id="red-button"  alt="">
@@ -25,6 +32,10 @@
         <div class="channel-container">
           <canvas class="channel blue" id="blue"></canvas>
           <img class="blue-unpressed button" id="blue-button"  alt="">
+        </div>
+        <div class="channel-container">
+          <canvas class="channel orange" id="orange"></canvas>
+          <img class="orange-unpressed button" id="orange-button"  alt="">
         </div>
       </div>
 
