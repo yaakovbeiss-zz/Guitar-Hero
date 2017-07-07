@@ -3,11 +3,23 @@
   box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
   height: 100vh;
 }
+.info{
+  position: relative;
+  margin-left: 0 auto;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: aqua;
+  box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
+}
+
 .channel-containers{
   height: 700px;
   display: flex;
   justify-content: space-around;
-  width: 50vw;
+  width: inherit;
   margin: 0 auto;
   border-radius: 5px;
   background-color: #1b1410;
@@ -26,14 +38,14 @@
   /*border: 5px solid red;*/
 }
 .yellow{
-  border: 5px solid yellow;
+
 }
 .blue{
-  border: 5px solid blue;
+
 }
 .green{
-  border: 5px solid green;
+
 }
 .orange{
-  border: 5px solid orange;
+
 }

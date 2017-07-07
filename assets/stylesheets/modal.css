@@ -17,6 +17,9 @@
   border-radius: 5px;
   background-color: #45484f;
   box-shadow: 0 5px 15px 0 rgba(0,0,0,.5);
+  text-align: center;
+  color: white;
+  font-size: 75px;
 }
 
 .hidden{
