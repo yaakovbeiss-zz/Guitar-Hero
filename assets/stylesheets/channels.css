@@ -2,6 +2,8 @@
   background-color: #6c6c6c;
   box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 .info{
   position: relative;
@@ -13,6 +15,7 @@
   border-radius: 5px;
   background-color: aqua;
   box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
+  font-family: 'Metal Mania', cursive;
 }
 
 .channel-containers{
@@ -20,10 +23,10 @@
   display: flex;
   justify-content: space-around;
   width: inherit;
-  margin: 0 auto;
   border-radius: 5px;
   background-color: #1b1410;
   box-shadow: 36px 17px 16px 3px rgba(0,0,0,.8);
+  background-image: url("../images/fretbackground.png")
 }
 .channel{
   height: 678px;
