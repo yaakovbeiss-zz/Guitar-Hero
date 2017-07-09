@@ -1,3 +1,6 @@
+img{
+  content: "";
+}
 .container{
   display: flex;
 }
@@ -5,8 +8,8 @@
   display: flex;
 }
 .button{
-  height: 72px;
-  width: 139px;
+  height: 74px;
+  width: 133px;
   position: absolute;
   bottom: 0px;
 }

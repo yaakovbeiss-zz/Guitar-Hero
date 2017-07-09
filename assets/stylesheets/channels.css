@@ -1,21 +1,31 @@
+img{
+  border: 0 !important;
+}
 .container{
   background-color: #6c6c6c;
   box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
   height: 100vh;
   display: flex;
   justify-content: center;
+  background-image: url("../images/crowdbackground.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
 }
 .info{
   position: relative;
-  margin-left: 0 auto;
-  margin-top: 0 auto;
-  margin-bottom: 0 auto;
-  height: 400px;
+  height: 160px;
+  margin-top: 100px;
   width: 300px;
   border-radius: 5px;
-  background-color: aqua;
   box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
   font-family: 'Metal Mania', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #fbcf16;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .channel-containers{
@@ -23,7 +33,7 @@
   display: flex;
   justify-content: space-around;
   width: inherit;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #1b1410;
   box-shadow: 36px 17px 16px 3px rgba(0,0,0,.8);
   background-image: url("../images/fretbackground.png")
