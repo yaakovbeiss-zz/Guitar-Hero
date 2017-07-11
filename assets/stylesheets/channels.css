@@ -14,7 +14,21 @@ img{
   background-size: cover;
   margin: 0 auto;
 }
-.info{
+.personal-info{
+  position: relative;
+  height: 160px;
+  margin-top: 100px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  font-size: 37px;
+  color: #fbcf16;
+  text-shadow: 2px 2px 4px #000;
+  font-style: italic;
+}
+.score{
   position: relative;
   height: 160px;
   margin-top: 100px;

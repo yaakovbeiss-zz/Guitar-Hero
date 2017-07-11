@@ -15,14 +15,18 @@
   margin: auto 0;
   opacity: 1;
   border-radius: 5px;
-  background-color: #45484f;
+  background-color: #121315;
   box-shadow: 0 5px 15px 0 rgba(0,0,0,.5);
   text-align: center;
   color: white;
-  font-size: 75px;
+  font-size: 64px;
   font-family: 'Metal Mania', cursive;
   text-shadow: 2px 2px 4px #000;
   color: #d91310;
+}
+.guitar-icon{
+  height: 50px;
+  width: auto;
 }
 
 .hidden{
