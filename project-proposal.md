@@ -2,10 +2,9 @@
 
 ### Background
 
-Guitar Hero is a classic multi-platform game that challenges its players to keep to a beat and carry a tune. This version will feature a character that Players need move via the keyboard making sure to place the character in the right space(s) at the right time. Each place the character enters represents a piece of a song that will play. If the character successfully enters the rights zones, a entire song will play. The game will follow simple rules:
-1) Should the player enter the right zone(s) and press the play key at the right time the note will play
-2) If the player doesn't enter the zone and press the play key but is already in the zone the note will not play
-3) Points will be awarded for each zone entered and successfully played
+Guitar Hero is a classic multi-platform game that challenges its players to keep to a beat and carry a tune. This version will imitate the original version. The game will follow simple rules:
+1) Should the player press the right note at the right time, a sound will play and the players score will increase
+2) If the player presses the note before or after the right time, an error sound will play, and the player will not recieve points
 
 ### Functionality & MVP  
 
@@ -13,8 +12,6 @@ With Guitar Hero, users will be able to:
 
 - [ ] Enter and exit zones, playing notes
 - [ ] Score points for correctly entering zones
-- [ ] See a visual representation of their character entering and exiting zones
-
 
 This project will include:
 
@@ -38,18 +35,18 @@ This project will be implemented with the following technologies:
 In addition to the entry file, there will be three scripts involved in this project:
 
 
-`display.js`: this script will handle the logic for creating and updating the necessary Canvas and WebGL elements and rendering them to the DOM. This script will be responsible for the visual aspect of the game.
+`channel.js`: This script will handle the logic for creating and updating the necessary Canvas and WebGL elements and rendering them to the DOM. It will also keep track of the location of the current note.
 
-`playerControls.js` This script will keep track of the player location, and keep a tally of the points a player scores. It will also handle login to see if the player is in the right zone and presses the right key.
+`button.js` This script will keep track of the players input via the button. Should the player press the button while the channel is aligned, a sound will play. It will also be responsible for the button image to be rendered, depending on where the button is pressed or not.
 
-`musicPlayer.js`: this script will handle the music logic behind the scenes. The musicPlayer will hold an array of audio clips that will be conditionally played depending on where the character in the playerControls.js file is located, and if the play button was pressed.
+`SoundGenerator.js`: this script will handle the music logic behind the scenes. The musicPlayer will hold an array of audio clips that will be conditionally played depending on where the note in the channel.js file is located, and if the play button was pressed.
 
 
 ### Implementation Timeline
 
 **Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Howler.js` installed. Write a basic entry file and the bare bones of all 3 scripts outlined above.  Learn the basics of `Howler.js`.  Goals for the day:
 
-- Get a yellow bundle with `Browserify`
+- Get a yellow bundle with `webpack`
 - Learn enough `Howler.js` deconstruct audio files
 - Learn Canvas to render an object
 
@@ -70,5 +67,4 @@ There are many directions this Guitar Hero could eventually go.  Some anticipate
 
 - [ ] Add multiple songs
 - [ ] Add different difficulty levels for game
-- [ ] Add multiplayer
 - [ ] Render different animations depending on score
