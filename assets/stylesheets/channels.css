@@ -51,7 +51,9 @@ img{
   border-radius: 10px;
   background-color: #1b1410;
   box-shadow: 36px 17px 16px 3px rgba(0,0,0,.8);
-  /*background-image: url("../images/fretbackground.png")*/
+  background-image: url("../images/fretbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .channel{
   height: 678px;
