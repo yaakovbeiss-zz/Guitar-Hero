@@ -27,6 +27,7 @@ img{
   color: #fbcf16;
   text-shadow: 2px 2px 4px #000;
   font-style: italic;
+  text-decoration: none;
 }
 .score{
   position: relative;
