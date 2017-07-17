@@ -19,10 +19,13 @@
   box-shadow: 0 5px 15px 0 rgba(0,0,0,.5);
   text-align: center;
   color: white;
-  font-size: 63px;
+  font-size: 61px;
   font-family: 'Metal Mania', cursive;
   text-shadow: 2px 2px 4px #debb54;
   color: #d91310;
+}
+.welcome{
+  padding: 5px;
 }
 .guitar-icon{
   height: 50px;
@@ -32,10 +35,16 @@
   text-shadow: 2px 2px 4px #000;
   font-size: 16px;
   overflow: scroll;
-  color: #67b2cd;
+  color: #fbcf16;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 .choice-bottom-border{
   border-bottom: 2px solid #67b2cd;
+}
+.controls{
+  font-size: 55px;
 }
 .start-button{
   border: none;
