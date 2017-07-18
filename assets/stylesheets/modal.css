@@ -36,6 +36,7 @@
   font-size: 16px;
   overflow: scroll;
   color: #fbcf16;
+  cursor: pointer;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -55,6 +56,9 @@
   width: 100px;
   height: 30px;
   font-size: 17px;
+  box-shadow: 2px 2px 9px 3px rgba(0, 0, 0, 1);
+  color: #fbcf16;
+  background-color: #d91310;
 }
 .hidden{
   display: none;
