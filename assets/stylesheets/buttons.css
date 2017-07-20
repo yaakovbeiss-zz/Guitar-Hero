@@ -31,15 +31,34 @@ img{
 .red-pressed{
   background-image: url("../images/red-buttonPressed.png")
 }
+.red-pressed-lit{
+  background-image: url("../images/red-buttonPressedLit.png")
+}
 .blue-pressed{
   background-image: url("../images/blue-buttonPressed.png")
+}
+.blue-pressed-lit{
+  background-image: url("../images/blue-buttonPressedLit.png")
 }
 .yellow-pressed{
   background-image: url("../images/yellow-buttonPressed.png")
 }
+.yellow-pressed-lit{
+  background-image: url("../images/yellow-buttonPressedLit.png")
+}
 .orange-pressed{
   background-image: url("../images/orange-buttonPressed.png")
 }
+.orange-pressed-lit{
+  background-image: url("../images/orange-buttonPressedLit.png")
+}
 .green-pressed{
   background-image: url("../images/green-buttonPressed.png")
+}
+.green-pressed-lit{
+  background-image: url("../images/green-buttonPressedLit.png")
+}
+.pressed-note{
+  background-image: url("../images/notePressed.png")
+  z-index: 100;
 }
