@@ -11,8 +11,8 @@
     <title></title>
   </head>
   <body>
-    <div class="modal-container hidden" id="game-over-modal-container">
-      <div class="modal" id="game-over-modal">
+    <div class="modal-container" id="modal-container">
+      <div class="modal hidden" id="game-over-modal">
           <span class="welcome">Game Over!</span>
         <br>
           <div class="" id="game-over-score"></div>
@@ -22,9 +22,9 @@
         </button>
         <img class="guitar-icon" src="assets/images/guitaricon.png" alt="">
       </div>
-    </div>
+    <!-- </div>
 
-    <div class="modal-container" id="modal-container">
+    <div class="modal-container" id="modal-container"> -->
       <div class="modal" id="modal">
           <span class="welcome">Welcome to Guitar Hero!</span>
         <br>
@@ -32,10 +32,14 @@
           <span class="choice-bottom-border">Choose a song:</span>
           <br>
           <input type="radio" name="track" value="1">I Love Rock and Roll
-          <br>
+          <!-- <br> -->
         </div>
-        <br>
-        <span class="controls">Use a s d f g to play</span>
+        <!-- <br> -->
+        <span class="controls">Use a s d f g to play
+          <br>
+          Use space to strum
+        </span>
+
         <br>
         <img src="assets/images/guitariconflipped.png" alt="">
         <button class="start-button" id="start-button" type="button" name="button">Play!
@@ -89,6 +93,7 @@
 
       <div class="score" >
         score: <div id="score">0</div>
+        <button class="quit-button" type="button" name="button" id="endgame-button">Quit</button>
       </div>
     </div>
   </body>

@@ -10,7 +10,7 @@
   justify-content: center;
 }
 .modal{
-  height: 400px;
+  height: 343px;
   width: 600px;
   margin: auto 0;
   opacity: 1;
@@ -45,7 +45,7 @@
   border-bottom: 2px solid #67b2cd;
 }*/
 .controls{
-  font-size: 55px;
+  font-size: 42px;
 }
 .start-button{
   border: none;
