@@ -12,7 +12,7 @@ Guitar-Hero uses asynchronous callbacks to load the backing track and all the so
 
 ### Sending Notes down a Channel
 
-An asynchronous setTimeout callback is responsible for making the sure the notes are played with the right timing. Using the duration of each sound, setTimeout is continuously called for each sound in the playlist, accumulating each sounds' duration to ensure each sound only plays after the previous sounds have played. seTimeout hands off to the Channel. Five different channels are used to render all the Notes.
+An asynchronous setTimeout callback is responsible for making the sure the notes are played with the right timing. Using the duration of each sound, setTimeout is continuously called for each sound in the playlist, accumulating each sounds' duration to ensure each sound only plays after the previous sounds have played. setTimeout hands off to the Channel. Five different channels are used to render all the Notes.
 
 ### Rendering Notes via the Channel
 
