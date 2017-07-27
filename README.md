@@ -1,6 +1,6 @@
 # Guitar-Hero
 
-[Guitar-Hero live](http://www.yaakovbeiss.com/Guitar-Hero/)
+[Guitar-Hero live](www.yaakovbeiss.com/Guitar-Hero/)
 
 Guitar-Hero is a JavaScript version of the amazing console game you know and love, Guitar-Hero. Guitar-Hero lets you feel what its like to be a rockstar. Players are challenged to keep with the beat as notes flow down the screen towards them. If a player presses a note at the correct time, the guitar plays, injecting a piece of the song into the audio currently playing. Play all the notes and you're a rockstar!
 
